@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PlayersDbModelStoreContainer" CdmEntityContainer="PlayersDbEntities">
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="PlayersDbModel.Player">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="BattingAverage" ColumnName="BattingAverage" />
+          <ScalarProperty Name="BlowlingAverage" ColumnName="BlowlingAverage" />
+          <ScalarProperty Name="PTeam" ColumnName="PTeam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
